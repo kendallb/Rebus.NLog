@@ -5,7 +5,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rebus.NLog.Tests</RootNamespace>
     <AssemblyName>Rebus.NLog.Tests</AssemblyName>
-    <TargetFrameworks>net452;netcoreapp11</TargetFrameworks>
+    <TargetFrameworks>net452;netcoreapp3.1</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -35,8 +35,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Rebus.NLog\Rebus.NLog.csproj" />
     <PackageReference Include="nlog" Version="4.5.0" />
-    <PackageReference Include="nunit" Version="3.7.1" />
-    <PackageReference Include="rebus" Version="4.0.0" />
-    <PackageReference Include="rebus.tests.contracts" Version="4.0.0" />
+    <PackageReference Include="nunit" Version="3.13.1" />
+    <PackageReference Include="rebus" Version="6.5.0" />
+    <PackageReference Include="rebus.tests.contracts" Version="6.4.0" />
   </ItemGroup>
 </Project>
