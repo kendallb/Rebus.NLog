@@ -8,14 +8,15 @@
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Authors>mookid8000</Authors>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/rebus-org/Rebus/master/LICENSE.md</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://rebus.fm/what-is-rebus/</PackageProjectUrl>
     <PackageDescription>NLog-based logger integration for Rebus</PackageDescription>
     <Copyright>Copyright 2012-2016</Copyright>
     <PackageTags>rebus wire serialization</PackageTags>
-    <PackageIconUrl>https://github.com/mookid8000/Rebus/raw/master/artwork/little_rebusbus2_copy-200x200.png</PackageIconUrl>
+    <PackageIcon>little_rebusbus2_copy-500x500.png</PackageIcon>
     <RepositoryUrl>https://github.com/rebus-org/Rebus</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>AMain.Rebus.NLog</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +47,12 @@
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
     <None Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\artwork\little_rebusbus2_copy-500x500.png">
+      <Pack>True</Pack>
+      <PackagePath>little_rebusbus2_copy-500x500.png</PackagePath>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nlog" Version="4.5.0" />
