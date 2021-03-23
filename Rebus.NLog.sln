@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.NLog", "Rebus.NLog\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.NLog.Tests", "Rebus.NLog.Tests\Rebus.NLog.Tests.csproj", "{280C1E09-9E36-4213-BB1E-D4C75B6D74BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus", "..\Rebus\Rebus\Rebus.csproj", "{63AB575B-9390-402A-9166-EFE302E88475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.Tests.Contracts", "..\Rebus\Rebus.Tests.Contracts\Rebus.Tests.Contracts.csproj", "{D77723EE-035B-462B-A6EA-565D7B384F6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{280C1E09-9E36-4213-BB1E-D4C75B6D74BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280C1E09-9E36-4213-BB1E-D4C75B6D74BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280C1E09-9E36-4213-BB1E-D4C75B6D74BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AB575B-9390-402A-9166-EFE302E88475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AB575B-9390-402A-9166-EFE302E88475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AB575B-9390-402A-9166-EFE302E88475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AB575B-9390-402A-9166-EFE302E88475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77723EE-035B-462B-A6EA-565D7B384F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77723EE-035B-462B-A6EA-565D7B384F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77723EE-035B-462B-A6EA-565D7B384F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77723EE-035B-462B-A6EA-565D7B384F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -36,7 +36,6 @@
     <ProjectReference Include="..\Rebus.NLog\Rebus.NLog.csproj" />
     <PackageReference Include="nlog" Version="4.5.0" />
     <PackageReference Include="nunit" Version="3.13.1" />
-    <PackageReference Include="rebus" Version="6.5.0" />
-    <PackageReference Include="rebus.tests.contracts" Version="6.4.0" />
+    <ProjectReference Include="..\..\Rebus\Rebus.Tests.Contracts\Rebus.Tests.Contracts.csproj" />
   </ItemGroup>
 </Project>
